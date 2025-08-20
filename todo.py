@@ -65,7 +65,7 @@ def main():
             if task:
                 add_task(task)
             else:
-                print("Please type something.")
+                print("Please type    something.")
         elif choice == "2":
             view_tasks()
         elif choice == "3":
@@ -74,14 +74,14 @@ def main():
                 index = int(input("Enter task number to mark done: "))
                 mark_done(index)
             except ValueError:
-                print("Please enter a valid number.")
+                print("Please enter a valid number  .")
         elif choice == "4":
             view_tasks()
             try:
                 index = int(input("Enter task number to delete: "))
                 delete_task(index)
             except ValueError:
-                print("Please enter a valid number.")
+                print("Please enter a valid number  .")
         elif choice == "5":
             print("Goodbye 👋")
             break
